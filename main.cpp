@@ -5,16 +5,12 @@
 // Holds all possible rank names
 std::string Ranks[4] = {"Bronze", "Silver", "Gold", "Diamond"};
 
-
-
 // Player-related global variables
 std::string myRank;
 std::string Nickname;
 double XP = 0;
 int Stage = 0;
 int MainMenu;
-
-
 
 // Assigns a rank based on the current stage
 void Rank_System(){
@@ -35,8 +31,6 @@ void Rank_System(){
         std::cout << "Your new rank, " << Ranks[3] << " !" << std::endl;
     }
 }
-
-
 
 // Increases stage when XP reaches specific milestones
 void XP_System(){
@@ -111,3 +105,4 @@ int main(){
 
     return 0;
 }
+
